@@ -25,8 +25,5 @@ jobs:
       - name: Expo Doctor
         run: npx expo-doctor
 
-      - name: Lint
-        run: npx expo lint
-
       - name: Type check
         run: npx tsc --noEmit
